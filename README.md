@@ -14,6 +14,7 @@
 </p>
 
 # tarkovdata
+
 tarkovdata is game information for [Escape From Tarkov](https://www.escapefromtarkov.com/) in easy to use formats to enable developing tools for assisting players. Everything here is contributed by the community (like you!) and maintained by developers of community tools like [Tarkov Tracker](https://tarkovtracker.io/), [Tarkov Tools](https://tarkov-tools.com/), and [Tarkov Guru](https://tarkov.guru/)
 
 This repository is still growing, with plans for new sets of data including SVG maps, item properties, localization, and more. Some schemas of data will change over time as the data matures, but breaking schemas will be avoided except when needed for added value.
@@ -40,6 +41,6 @@ For any contribution, please create a pull request with your changes. If your ch
 
 To help with some basic data management functions and eventually integrity checks on PRs, a CLI tool is included with the repository.
 
-Provided you have node/npm installed, you can run `npm cli.js help` to list available commands. Commands like `node cli.js verify-quest-data` and `node cli.js verify-hideout-data` are important to check that no important mistakes were made when modifying the data. Commands like `node cli.js new-quest-id` can find the next consecutive quest ID to utilize for new quests, there are similar commmands for hideout & objectives.
+Provided you have node/npm installed, you can run `node cli.js help` to list available commands. Commands like `node cli.js verify-quest-data` and `node cli.js verify-hideout-data` are important to check that no important mistakes were made when modifying the data. Commands like `node cli.js new-quest-id` can find the next consecutive quest ID to utilize for new quests, there are similar commmands for hideout & objectives.
 
 If you would like to help keep the quest data up to date with changes, please submit a pull request to the master branch. Feel free to utilize the Github discussions feature to talk about data format and potential additions.
